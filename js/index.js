@@ -1,5 +1,5 @@
 const title = document.querySelector('.title')
-const text = 'I Have Something'.split('')
+const text = 'Hoiiiii Cutie...  :-)'.split('')
 for (let index = 0; index < text.length; index++) {
   if (text[index] !== ' ') {
     title.innerHTML += `<span>${text[index]}<span/>`
@@ -10,6 +10,6 @@ for (let index = 0; index < text.length; index++) {
 
 const textElements = document.querySelectorAll('.title span');
 textElements.forEach((element) => {
-  const randomDelay = Math.random() * 3; // Menghasilkan delay acak antara 0 hingga 3 detik
+  const randomDelay = Math.random() * 3; // Generates a random delay between 0 and 3 seconds.
   element.style.animationDelay = `${randomDelay}s`;
 });
